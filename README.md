@@ -12,7 +12,7 @@ JRE и JDK
 
 - Решение:
   - 
-![](screenshots/javaVer.png)
+![](src/screenshots/javaVer.png)
 
 ---
 Maven/gradle
@@ -25,4 +25,4 @@ Maven/gradle
 - Решение:
   - 
   - Собрал проект. Добавил зависимость Lombok в проект
-    - ![img.png](screenshots/img.png)
+    - ![img.png](src/screenshots/img.png)
