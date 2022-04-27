@@ -18,4 +18,14 @@ public class SickStomach implements IStomach{
         System.out.println("Я больной желудок, я кое как пытаюсь переваривать " + food);
         DoBulkBulk();
     }
+
+    @PostConstruct
+    public void PostConstruct(){
+        System.out.println("Больной желудок создан");
+    }
+
+    @PreDestroy
+    public void PreDestroy(){
+        System.out.println("Больной желудок удален");
+    }
 }
