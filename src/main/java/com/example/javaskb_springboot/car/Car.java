@@ -1,8 +1,7 @@
-package com.example.javaskb_springboot.Car;
+package com.example.javaskb_springboot.car;
 
-import com.example.javaskb_springboot.Car.Weel.IWheel;
+import com.example.javaskb_springboot.car.wheel.IWheel;
 import com.example.javaskb_springboot.config.CarConfig;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -24,7 +23,7 @@ public class Car {
         this.wheel = wheel;
     }
 
-    public String GetStats() {
+    public String getStats() {
         return "Модель: " + name + " - " + carSerialNumber + ", " + enginePower + " у.е.мощи";
     }
 }

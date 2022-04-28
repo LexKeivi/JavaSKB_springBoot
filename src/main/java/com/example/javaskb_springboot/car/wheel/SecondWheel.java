@@ -1,4 +1,4 @@
-package com.example.javaskb_springboot.Car.Weel;
+package com.example.javaskb_springboot.car.wheel;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.stereotype.Component;
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @ConditionalOnBean(name = "TestWheel")
 public class SecondWheel implements IWheel{
     @Override
-    public void Spin() {
+    public void spin() {
         System.out.println("Spin second wheel");
     }
 }

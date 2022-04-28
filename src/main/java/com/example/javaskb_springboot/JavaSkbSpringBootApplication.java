@@ -1,6 +1,6 @@
 package com.example.javaskb_springboot;
 
-import com.example.javaskb_springboot.Car.Car;
+import com.example.javaskb_springboot.car.Car;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -13,7 +13,7 @@ public class JavaSkbSpringBootApplication {
     }
     public static void main(String[] args) {
         SpringApplication.run(JavaSkbSpringBootApplication.class, args);
-        System.out.println(car.GetStats());
-        car.wheel.Spin();
+        System.out.println(car.getStats());
+        car.wheel.spin();
     }
 }

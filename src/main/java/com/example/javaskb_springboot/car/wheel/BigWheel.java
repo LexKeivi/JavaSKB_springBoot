@@ -1,4 +1,4 @@
-package com.example.javaskb_springboot.Car.Weel;
+package com.example.javaskb_springboot.car.wheel;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class BigWheel implements IWheel{
 
     @Override
-    public void Spin() {
+    public void spin() {
         System.out.println("spin big wheel");
     }
 }
