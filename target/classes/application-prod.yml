@@ -1,0 +1,8 @@
+app:
+  name: CarApplication
+  description: ${name} is a final proudct
+
+car:
+  name: Lada
+  enginePower: 80F
+  carSerialNumber: ${CAR_SERIAL_NUMBER:default}

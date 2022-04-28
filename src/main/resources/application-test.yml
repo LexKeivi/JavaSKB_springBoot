@@ -1,0 +1,8 @@
+app:
+  name: testApp
+  description: ${name} is a testApp app
+
+car:
+  name: test name
+  enginePower: 15F
+  carSerialNumber: ${CAR_SERIAL_NUMBER:default}

@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: test
+
+app:
+  name: Default
+  description: ${name} is a Default app
+
+car:
+  name: default
+  enginePower: -1F
+  carSerialNumber: ${CAR_SERIAL_NUMBER:default}
