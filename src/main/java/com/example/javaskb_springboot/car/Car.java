@@ -1,5 +1,6 @@
 package com.example.javaskb_springboot.car;
 
+import com.example.javaskb_springboot.car.wheel.BigWheel;
 import com.example.javaskb_springboot.car.wheel.IWheel;
 import com.example.javaskb_springboot.config.CarConfig;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -16,7 +17,7 @@ public class Car {
 
     public IWheel wheel;
 
-    public Car(CarConfig carConfig, @Qualifier("secondWheel") IWheel wheel){
+    public Car(CarConfig carConfig, IWheel wheel){
         name = carConfig.name;
         enginePower = carConfig.enginePower;
         carSerialNumber = carConfig.carSerialNumber;

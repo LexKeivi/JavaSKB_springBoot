@@ -1,10 +1,11 @@
 package com.example.javaskb_springboot.car.wheel;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConditionalOnProperty(prefix = "car", name = "carSerialNumber", havingValue = "")
+@ConditionalOnExpression("'${car.name}' != 'default'")
 public class BigWheel implements IWheel{
 
     @Override
