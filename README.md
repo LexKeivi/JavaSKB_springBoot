@@ -24,5 +24,6 @@ Maven/gradle
 
 - Решение:
   - 
-  - Собрал проект. Добавил зависимость Lombok в проект
+  - Собрал проект. Добавил зависимость Lombok в проект на Maven и Gradle
     - ![img.png](src/screenshots/img.png)
+    - ![img.png](src/screenshots/gradle.png)
