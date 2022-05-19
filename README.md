@@ -25,4 +25,6 @@
 2) Написать обработчик ошибок, который будет возвращать кастомную 502 ошибку (@ControllerAdvice вам в помощь)
 
  - # Решение:
- - В коде
+ - Get запрос![](src/screenshots/get.png)
+ - Post запрос![](src/screenshots/post.png)
+ - Custom Exception![](src/screenshots/customError.png)
